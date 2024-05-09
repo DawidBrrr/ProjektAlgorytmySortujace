@@ -1,0 +1,5 @@
+C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-debug/SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir
+C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-debug/SortingAlgorithms/CMakeFiles/edit_cache.dir
+C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-debug/SortingAlgorithms/CMakeFiles/rebuild_cache.dir
