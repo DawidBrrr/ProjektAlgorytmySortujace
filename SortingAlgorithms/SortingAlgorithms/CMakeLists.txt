@@ -4,11 +4,13 @@
 
 # Dodaj źródło do pliku wykonywalnego tego projektu.
 add_executable (SortingAlgorithms "SortingAlgorithms.cpp" "SortingAlgorithms.h")
+
 target_link_libraries(SortingAlgorithms ${CMAKE_SOURCE_DIR}/library/sfml-graphics.lib)
 target_link_libraries(SortingAlgorithms ${CMAKE_SOURCE_DIR}/library/sfml-audio.lib)
 target_link_libraries(SortingAlgorithms ${CMAKE_SOURCE_DIR}/library/sfml-network.lib)
 target_link_libraries(SortingAlgorithms ${CMAKE_SOURCE_DIR}/library/sfml-system.lib)
 target_link_libraries(SortingAlgorithms ${CMAKE_SOURCE_DIR}/library/sfml-window.lib)
+
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 

@@ -4,5 +4,9 @@
 #pragma once
 
 #include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include <SFML/Graphics.hpp>
 
 // TODO: W tym miejscu przywołaj dodatkowe nagłówki wymagane przez program.
