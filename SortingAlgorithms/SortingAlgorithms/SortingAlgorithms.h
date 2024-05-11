@@ -8,5 +8,6 @@
 #include <fstream>
 #include <string>
 #include <SFML/Graphics.hpp>
+#include <SFML/System.hpp>
 
 // TODO: W tym miejscu przywołaj dodatkowe nagłówki wymagane przez program.
