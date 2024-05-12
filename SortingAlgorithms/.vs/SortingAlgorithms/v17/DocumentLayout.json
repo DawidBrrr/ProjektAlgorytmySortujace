@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SortingAlgorithms\\SortingAlgorithms.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dawid\\Documents\\GitHub\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SortingAlgorithms\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dawid\\Documents\\GitHub\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SortingAlgorithms\\SortingAlgorithms.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dawid\\Documents\\GitHub\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SortingAlgorithms\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SortingAlgorithms.h",
               "DocumentMoniker": "C:\\Users\\Dawid\\Documents\\GitHub\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms.h",
               "RelativeDocumentMoniker": "SortingAlgorithms\\SortingAlgorithms.h",
               "ToolTip": "C:\\Users\\Dawid\\Documents\\GitHub\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms.h",
               "RelativeToolTip": "SortingAlgorithms\\SortingAlgorithms.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-09T11:19:35Z",
               "EditorCaption": ""
@@ -45,14 +45,14 @@
               "RelativeDocumentMoniker": "SortingAlgorithms\\SortingAlgorithms.cpp",
               "ToolTip": "C:\\Users\\Dawid\\Documents\\GitHub\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms.cpp",
               "RelativeToolTip": "SortingAlgorithms\\SortingAlgorithms.cpp",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAAAIkAAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-09T11:17:51.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Users\\Dawid\\Documents\\GitHub\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms\\CMakeLists.txt",
               "RelativeDocumentMoniker": "SortingAlgorithms\\CMakeLists.txt",
@@ -60,8 +60,7 @@
               "RelativeToolTip": "SortingAlgorithms\\CMakeLists.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-09T11:16:03.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T11:16:03.075Z"
             }
           ]
         }

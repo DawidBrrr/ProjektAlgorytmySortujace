@@ -7,7 +7,10 @@
 #include <vector>
 #include <fstream>
 #include <string>
+
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
+
+#include <windows.h>
 
 // TODO: W tym miejscu przywołaj dodatkowe nagłówki wymagane przez program.
