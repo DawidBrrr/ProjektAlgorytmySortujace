@@ -1,6 +1,7 @@
 ﻿
 #include "SortingAlgorithms.h"
 
+
 //Funkcja sprawdzająca kolizje
 
 bool CheckMouseColision(sf::Vector2i mousePosition,sf::FloatRect bounds)
@@ -44,6 +45,13 @@ int main()
 {
     //zmienne
     bool Chose = false;
+    bool ChoseBubbleSort = false;
+    bool ChoseMergeSort = false;
+    bool ChoseQuickSort = false;
+    bool ChoseHeapSort = false;
+
+    std::vector<int> NotSortedList = GetList("InputData/NotSortedList.txt");
+    std::vector<int> SortedList;
 
     //frontend
     //obiekt okna
@@ -122,6 +130,12 @@ int main()
                     Guzik2.setFillColor(sf::Color::Black);
                     Guzik3.setFillColor(sf::Color::Black);
                     Guzik4.setFillColor(sf::Color::Black);
+
+                    ChoseBubbleSort = true;
+                    ChoseMergeSort = false;
+                    ChoseQuickSort = false;
+                    ChoseHeapSort = false;
+                    
                 }
                 if (CheckMouseColision(sf::Mouse::getPosition(window), Guzik2.getGlobalBounds()))//MergeSort
                 {
@@ -129,6 +143,11 @@ int main()
                     Guzik2.setFillColor(sf::Color::Red);
                     Guzik3.setFillColor(sf::Color::Black);
                     Guzik4.setFillColor(sf::Color::Black);
+
+                    ChoseBubbleSort = false;
+                    ChoseMergeSort = true;
+                    ChoseQuickSort = false;
+                    ChoseHeapSort = false;
                 }
                 if (CheckMouseColision(sf::Mouse::getPosition(window), Guzik3.getGlobalBounds()))//QuickSort
                 {
@@ -136,6 +155,11 @@ int main()
                     Guzik2.setFillColor(sf::Color::Black);
                     Guzik3.setFillColor(sf::Color::Red);
                     Guzik4.setFillColor(sf::Color::Black);
+
+                    ChoseBubbleSort = false;
+                    ChoseMergeSort = false;
+                    ChoseQuickSort = true;
+                    ChoseHeapSort = false;
                 }
                 if (CheckMouseColision(sf::Mouse::getPosition(window), Guzik4.getGlobalBounds()))//HeapSort
                 {
@@ -143,11 +167,21 @@ int main()
                     Guzik2.setFillColor(sf::Color::Black);
                     Guzik3.setFillColor(sf::Color::Black);
                     Guzik4.setFillColor(sf::Color::Red);
+
+                    ChoseBubbleSort = false;
+                    ChoseMergeSort = false;
+                    ChoseQuickSort = false;
+                    ChoseHeapSort = true;
                 }
                 //Przycisk Sortowania Realese
                 if (CheckMouseColision(sf::Mouse::getPosition(window), Guzik5.getGlobalBounds()))
                 {
-                    Guzik5.setFillColor(sf::Color::Black);
+                    Guzik5.setFillColor(sf::Color::Black);//Posortuj po wcisnieciu guzika
+                    if (ChoseBubbleSort)
+                    {
+                        SortedList = Sorts::BubbleSort(NotSortedList);
+                        //TO DO dodaj zappis posortowane listy do plki funkcja SaveList
+                    }
                     
                 }
                 

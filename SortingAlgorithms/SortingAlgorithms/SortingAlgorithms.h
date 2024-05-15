@@ -13,4 +13,6 @@
 
 #include <windows.h>
 
+#include "Algorithms.h"
+
 // TODO: W tym miejscu przywołaj dodatkowe nagłówki wymagane przez program.

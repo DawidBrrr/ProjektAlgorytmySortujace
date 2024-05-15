@@ -85,6 +85,14 @@ build SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\SortingAlgorithms.cpp.o
   TARGET_COMPILE_PDB = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\
   TARGET_PDB = SortingAlgorithms\SortingAlgorithms.pdb
 
+build SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\Algorithms.cpp.obj: CXX_COMPILER__SortingAlgorithms_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\Algorithms.cpp || cmake_object_order_depends_target_SortingAlgorithms
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\include
+  OBJECT_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
+  OBJECT_FILE_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
+  TARGET_COMPILE_PDB = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\
+  TARGET_PDB = SortingAlgorithms\SortingAlgorithms.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SortingAlgorithms
@@ -93,7 +101,7 @@ build SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\SortingAlgorithms.cpp.o
 #############################################
 # Link the executable SortingAlgorithms\SortingAlgorithms.exe
 
-build SortingAlgorithms\SortingAlgorithms.exe: CXX_EXECUTABLE_LINKER__SortingAlgorithms_Release SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\SortingAlgorithms.cpp.obj | C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-graphics.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-audio.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-network.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-system.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-window.lib
+build SortingAlgorithms\SortingAlgorithms.exe: CXX_EXECUTABLE_LINKER__SortingAlgorithms_Release SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\SortingAlgorithms.cpp.obj SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\Algorithms.cpp.obj | C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-graphics.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-audio.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-network.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-system.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-window.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
   LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /subsystem:console
   LINK_LIBRARIES = C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-graphics.lib  C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-audio.lib  C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-network.lib  C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-system.lib  C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-window.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
