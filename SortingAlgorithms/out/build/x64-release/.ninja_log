@@ -1,6 +1,4 @@
 # ninja log v5
-14	1528	7372388734585342	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj	f22c3107ef44dfd8
-1529	1669	7372388735875627	SortingAlgorithms/SortingAlgorithms.exe	99ade4c7e8ae1144
-14	684	7374866033727156	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/Algorithms.cpp.obj	eb2bdc458953342c
-10	1630	7374866043167715	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj	f22c3107ef44dfd8
-1631	2260	7374866049027231	SortingAlgorithms/SortingAlgorithms.exe	ada94649555d8fb6
+12	755	7375092527809811	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/Algorithms.cpp.obj	cd671b246b55a4c0
+4	2937	7375092549623010	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj	67e4974196257eff
+2939	3170	7375092551773665	SortingAlgorithms/SortingAlgorithms.exe	c2606c7f6eecfe5a

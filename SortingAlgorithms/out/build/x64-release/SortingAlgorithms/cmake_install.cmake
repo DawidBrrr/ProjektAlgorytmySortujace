@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/SortingAlgorithms
+# Install script for directory: C:/Users/dbrac/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/SortingAlgorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/install/x64-release")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/dbrac/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/install/x64-release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
