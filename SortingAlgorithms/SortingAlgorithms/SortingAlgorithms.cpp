@@ -1,6 +1,6 @@
 ﻿
 #include "SortingAlgorithms.h"
-
+//TODO czas pracy procesora czas pracy programu metryki tego typu
 
 //Funkcja sprawdzająca kolizje
 
@@ -39,7 +39,24 @@ std::vector<int> GetList(std::string filePath)
 
 }
 //To Do funkcja zapisująca posortowana liste do pliku tekstowego
+void SaveToFile(const std::vector<int>& list, const std::string& filepath) {
+    // Open the file
+    std::ofstream outFile(filepath);
 
+    // Check if the file was opened successfully
+    if (!outFile.is_open()) {
+        std::cerr << "Nie udalo sie otworzyc pliku zapisu " << filepath << std::endl;
+        return;
+    }
+
+    // Write each element of the vector to the file
+    for (int num : list) {
+        outFile << num << " ";
+    }
+
+    // Close the file
+    outFile.close();
+}
 
 int main()
 {
@@ -180,7 +197,20 @@ int main()
                     if (ChoseBubbleSort)
                     {
                         SortedList = Sorts::BubbleSort(NotSortedList);
-                        //TO DO dodaj zappis posortowane listy do plki funkcja SaveList
+                        //Zapis do pliku
+                        SaveToFile(SortedList, "OutputData/SortedList1.txt");
+                    }
+                    if (ChoseMergeSort)
+                    {
+                        SortedList = Sorts::MergeSort(NotSortedList);
+
+                        SaveToFile(SortedList, "OutputData/SortedList2.txt");
+                    }
+                    if (ChoseQuickSort)
+                    {
+                        SortedList = Sorts::QuickSort(NotSortedList);
+
+                        SaveToFile(SortedList, "OutputData/SortedList3.txt");
                     }
                     
                 }
