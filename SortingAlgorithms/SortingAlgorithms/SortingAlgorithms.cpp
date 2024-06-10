@@ -67,6 +67,8 @@ int main()
     bool ChoseQuickSort = false;
     bool ChoseHeapSort = false;
 
+    
+
     std::vector<int> NotSortedList = GetList("InputData/NotSortedList.txt");
     std::vector<int> SortedList;
 
@@ -124,6 +126,15 @@ int main()
     sf::Text MainText(L"Wybierz Algorytm sortujący", font, 48);
     MainText.setFillColor(sf::Color::Black);
     MainText.setPosition(200, 10);
+
+    sf::Text TimeReal("Czas rzeczywisty:  ms", font, 20);
+    TimeReal.setFillColor(sf::Color::Black);
+    TimeReal.setPosition(20, 710);
+
+    sf::Text TimeCPU("Czas Procesora: ms", font, 20);
+    TimeCPU.setFillColor(sf::Color::Black);
+    TimeCPU.setPosition(20, 740);
+
 
 
     
@@ -190,27 +201,126 @@ int main()
                     ChoseQuickSort = false;
                     ChoseHeapSort = true;
                 }
-                //Przycisk Sortowania Realese
+                //Przycisk Sortowania Realese i Wywolywanie funkcji
                 if (CheckMouseColision(sf::Mouse::getPosition(window), Guzik5.getGlobalBounds()))
                 {
                     Guzik5.setFillColor(sf::Color::Black);//Posortuj po wcisnieciu guzika
                     if (ChoseBubbleSort)
                     {
+                        // Mierzenie czasu ściennego (rzeczywistego)
+                        auto start_real = std::chrono::high_resolution_clock::now();
+
+                        // Mierzenie czasu procesora
+                        std::clock_t start_cpu = std::clock();
+
+                        //Sortowanie
                         SortedList = Sorts::BubbleSort(NotSortedList);
                         //Zapis do pliku
                         SaveToFile(SortedList, "OutputData/SortedList1.txt");
+
+                        // Zakończenie mierzenia czasu ściennego (rzeczywistego)
+                        auto end_real = std::chrono::high_resolution_clock::now();
+
+                        // Zakończenie mierzenia czasu procesora
+                        std::clock_t end_cpu = std::clock();
+
+                        //Czasy dzialania
+                        // Obliczenie czasu ściennego (rzeczywistego) w milisekundach
+                        auto elapsed_real = std::chrono::duration_cast<std::chrono::milliseconds>(end_real - start_real).count();
+
+                        // Obliczenie czasu procesora w milisekundach
+                        auto elapsed_cpu = 1000.0 * (end_cpu - start_cpu) / CLOCKS_PER_SEC;
+
+                        TimeReal.setString("Czas rzeczywisty: " + std::to_string(elapsed_real) + " ms");
+                        TimeCPU.setString("Czas procesora: " + std::to_string(elapsed_cpu) + " ms");
+
+
                     }
                     if (ChoseMergeSort)
                     {
+                        // Mierzenie czasu ściennego (rzeczywistego)
+                        auto start_real = std::chrono::high_resolution_clock::now();
+
+                        // Mierzenie czasu procesora
+                        std::clock_t start_cpu = std::clock();
+
                         SortedList = Sorts::MergeSort(NotSortedList);
 
                         SaveToFile(SortedList, "OutputData/SortedList2.txt");
+
+                        // Zakończenie mierzenia czasu ściennego (rzeczywistego)
+                        auto end_real = std::chrono::high_resolution_clock::now();
+
+                        // Zakończenie mierzenia czasu procesora
+                        std::clock_t end_cpu = std::clock();
+
+                        //Czasy dzialania
+                        // Obliczenie czasu ściennego (rzeczywistego) w milisekundach
+                        auto elapsed_real = std::chrono::duration_cast<std::chrono::milliseconds>(end_real - start_real).count();
+
+                        // Obliczenie czasu procesora w milisekundach
+                        auto elapsed_cpu = 1000.0 * (end_cpu - start_cpu) / CLOCKS_PER_SEC;
+
+                        TimeReal.setString("Czas rzeczywisty: " + std::to_string(elapsed_real) + " ms");
+                        TimeCPU.setString("Czas procesora: " + std::to_string(elapsed_cpu) + " ms");
                     }
                     if (ChoseQuickSort)
                     {
+                        // Mierzenie czasu ściennego (rzeczywistego)
+                        auto start_real = std::chrono::high_resolution_clock::now();
+
+                        // Mierzenie czasu procesora
+                        std::clock_t start_cpu = std::clock();
+
                         SortedList = Sorts::QuickSort(NotSortedList);
 
                         SaveToFile(SortedList, "OutputData/SortedList3.txt");
+
+                        // Zakończenie mierzenia czasu ściennego (rzeczywistego)
+                        auto end_real = std::chrono::high_resolution_clock::now();
+
+                        // Zakończenie mierzenia czasu procesora
+                        std::clock_t end_cpu = std::clock();
+
+                        //Czasy dzialania
+                        // Obliczenie czasu ściennego (rzeczywistego) w milisekundach
+                        auto elapsed_real = std::chrono::duration_cast<std::chrono::milliseconds>(end_real - start_real).count();
+
+                        // Obliczenie czasu procesora w milisekundach
+                        auto elapsed_cpu = 1000.0 * (end_cpu - start_cpu) / CLOCKS_PER_SEC;
+
+                        TimeReal.setString("Czas rzeczywisty: " + std::to_string(elapsed_real) + " ms");
+                        TimeCPU.setString("Czas procesora: " + std::to_string(elapsed_cpu) + " ms");
+                    }
+                    if (ChoseHeapSort)
+                    {
+                        // Mierzenie czasu ściennego (rzeczywistego)
+                        auto start_real = std::chrono::high_resolution_clock::now();
+
+                        // Mierzenie czasu procesora
+                        std::clock_t start_cpu = std::clock();
+
+                        SortedList = Sorts::heapSort(NotSortedList);
+
+                        SaveToFile(SortedList, "OutputData/SortedList4.txt");
+
+                        // Zakończenie mierzenia czasu ściennego (rzeczywistego)
+                        auto end_real = std::chrono::high_resolution_clock::now();
+
+                        // Zakończenie mierzenia czasu procesora
+                        std::clock_t end_cpu = std::clock();
+
+                        //Czasy dzialania
+                        // Obliczenie czasu ściennego (rzeczywistego) w milisekundach
+                        auto elapsed_real = std::chrono::duration_cast<std::chrono::milliseconds>(end_real - start_real).count();
+
+                        // Obliczenie czasu procesora w milisekundach
+                        auto elapsed_cpu = 1000.0 * (end_cpu - start_cpu) / CLOCKS_PER_SEC;
+
+                        TimeReal.setString("Czas rzeczywisty: " + std::to_string(elapsed_real) + " ms");
+                        TimeCPU.setString("Czas procesora: " + std::to_string(elapsed_cpu) + " ms");
+
+
                     }
                     
                 }
@@ -240,6 +350,8 @@ int main()
         window.draw(MainText);
         window.draw(Guzik5);
         window.draw(text5);
+        window.draw(TimeReal);
+        window.draw(TimeCPU);
         //Funkcje
         //CheckMouseColision(sf::Mouse::getPosition(window), Guzik1.getGlobalBounds());
 

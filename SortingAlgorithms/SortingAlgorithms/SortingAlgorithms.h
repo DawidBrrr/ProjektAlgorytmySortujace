@@ -7,6 +7,8 @@
 #include <vector>
 #include <fstream>
 #include <string>
+#include <chrono>
+#include <ctime>
 
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>

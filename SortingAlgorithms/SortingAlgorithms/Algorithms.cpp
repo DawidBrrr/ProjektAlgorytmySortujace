@@ -92,4 +92,43 @@ std::vector<int> Sorts::QuickSort(std::vector<int>& list) {
     quickSortUtil(sortedArr, 0, size - 1);
     return sortedArr;
 }
-//HeapSort do it
+//HeapSort 
+void Sorts::heapify(std::vector<int>& arr, int n, int i) {
+    int largest = i; // Inicjalizujemy najwiêkszy jako korzeñ
+    int left = 2 * i + 1; // lewy = 2*i + 1
+    int right = 2 * i + 2; // prawy = 2*i + 2
+
+    // Jeœli lewy liœæ jest wiêkszy ni¿ korzeñ
+    if (left < n && arr[left] > arr[largest])
+        largest = left;
+
+    // Jeœli prawy liœæ jest wiêkszy ni¿ najwiêkszy dotychczasowy element
+    if (right < n && arr[right] > arr[largest])
+        largest = right;
+
+    // Jeœli najwiêkszy nie jest korzeniem
+    if (largest != i) {
+        std::swap(arr[i], arr[largest]);
+
+        // Rekurencyjnie przekszta³camy poddrzewo w kopiec
+        heapify(arr, n, largest);
+    }
+}
+std::vector<int> Sorts::heapSort(std::vector<int> arr) {
+    int n = arr.size();
+
+    // Budujemy kopiec (przekszta³camy tablicê w kopiec)
+    for (int i = n / 2 - 1; i >= 0; i--)
+        heapify(arr, n, i);
+
+    // Wyci¹gamy elementy jeden po drugim z kopca
+    for (int i = n - 1; i > 0; i--) {
+        // Przenosimy bie¿¹cy korzeñ (najwiêkszy element) na koniec
+        std::swap(arr[0], arr[i]);
+
+        // Wywo³ujemy heapify na zredukowanym kopcu
+        heapify(arr, i, 0);
+    }
+
+    return arr;
+}

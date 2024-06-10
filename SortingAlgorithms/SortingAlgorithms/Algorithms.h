@@ -17,7 +17,8 @@ public:
 	static void quickSortUtil(std::vector<int>& list, int low, int high);
 	static std::vector<int> QuickSort(std::vector<int>& list);
 	//HeapSort
-
+	static void heapify(std::vector<int>& arr, int n, int i);
+	static std::vector<int> heapSort(std::vector<int> arr);
 
 
 
