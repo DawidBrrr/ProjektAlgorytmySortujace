@@ -39,13 +39,13 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\
+cmake_ninja_workdir = C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,16 +56,46 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms -BC:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms -BC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles\install.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles\install\local.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install\local: phony CMakeFiles\install\local.util
+
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/dbrac/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/CMakeLists.txt
+# C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -77,17 +107,17 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 build cmake_object_order_depends_target_SortingAlgorithms: phony || SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
 
-build SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\SortingAlgorithms.cpp.obj: CXX_COMPILER__SortingAlgorithms_unscanned_Release C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms.cpp || cmake_object_order_depends_target_SortingAlgorithms
+build SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\SortingAlgorithms.cpp.obj: CXX_COMPILER__SortingAlgorithms_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms.cpp || cmake_object_order_depends_target_SortingAlgorithms
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20
-  INCLUDES = -IC:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\include
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\include
   OBJECT_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
   OBJECT_FILE_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
   TARGET_COMPILE_PDB = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\
   TARGET_PDB = SortingAlgorithms\SortingAlgorithms.pdb
 
-build SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\Algorithms.cpp.obj: CXX_COMPILER__SortingAlgorithms_unscanned_Release C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\Algorithms.cpp || cmake_object_order_depends_target_SortingAlgorithms
+build SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\Algorithms.cpp.obj: CXX_COMPILER__SortingAlgorithms_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\Algorithms.cpp || cmake_object_order_depends_target_SortingAlgorithms
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20
-  INCLUDES = -IC:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\include
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\include
   OBJECT_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
   OBJECT_FILE_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
   TARGET_COMPILE_PDB = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\
@@ -101,10 +131,10 @@ build SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\Algorithms.cpp.obj: CXX
 #############################################
 # Link the executable SortingAlgorithms\SortingAlgorithms.exe
 
-build SortingAlgorithms\SortingAlgorithms.exe: CXX_EXECUTABLE_LINKER__SortingAlgorithms_Release SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\SortingAlgorithms.cpp.obj SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\Algorithms.cpp.obj | C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-graphics.lib C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-audio.lib C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-network.lib C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-system.lib C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-window.lib
+build SortingAlgorithms\SortingAlgorithms.exe: CXX_EXECUTABLE_LINKER__SortingAlgorithms_Release SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\SortingAlgorithms.cpp.obj SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\Algorithms.cpp.obj | C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-graphics.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-audio.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-network.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-system.lib C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-window.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
   LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /subsystem:console
-  LINK_LIBRARIES = C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-graphics.lib  C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-audio.lib  C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-network.lib  C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-system.lib  C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-window.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-graphics.lib  C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-audio.lib  C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-network.lib  C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-system.lib  C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\library\sfml-window.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -113,12 +143,47 @@ build SortingAlgorithms\SortingAlgorithms.exe: CXX_EXECUTABLE_LINKER__SortingAlg
   TARGET_IMPLIB = SortingAlgorithms\SortingAlgorithms.lib
   TARGET_PDB = SortingAlgorithms\SortingAlgorithms.pdb
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target SortingAlgorithmsLib
+
+
+#############################################
+# Order-only phony target for SortingAlgorithmsLib
+
+build cmake_object_order_depends_target_SortingAlgorithmsLib: phony || SortingAlgorithms\CMakeFiles\SortingAlgorithmsLib.dir
+
+build SortingAlgorithms\CMakeFiles\SortingAlgorithmsLib.dir\Algorithms.cpp.obj: CXX_COMPILER__SortingAlgorithmsLib_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\Algorithms.cpp || cmake_object_order_depends_target_SortingAlgorithmsLib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\include
+  OBJECT_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithmsLib.dir
+  OBJECT_FILE_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithmsLib.dir
+  TARGET_COMPILE_PDB = SortingAlgorithms\CMakeFiles\SortingAlgorithmsLib.dir\SortingAlgorithmsLib.pdb
+  TARGET_PDB = SortingAlgorithms\SortingAlgorithmsLib.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target SortingAlgorithmsLib
+
+
+#############################################
+# Link the static library SortingAlgorithms\SortingAlgorithmsLib.lib
+
+build SortingAlgorithms\SortingAlgorithmsLib.lib: CXX_STATIC_LIBRARY_LINKER__SortingAlgorithmsLib_Release SortingAlgorithms\CMakeFiles\SortingAlgorithmsLib.dir\Algorithms.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithmsLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAlgorithms\CMakeFiles\SortingAlgorithmsLib.dir\SortingAlgorithmsLib.pdb
+  TARGET_FILE = SortingAlgorithms\SortingAlgorithmsLib.lib
+  TARGET_PDB = SortingAlgorithms\SortingAlgorithmsLib.pdb
+
 
 #############################################
 # Utility command for edit_cache
 
 build SortingAlgorithms\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\SortingAlgorithms && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\SortingAlgorithms && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -129,12 +194,475 @@ build SortingAlgorithms\edit_cache: phony SortingAlgorithms\CMakeFiles\edit_cach
 # Utility command for rebuild_cache
 
 build SortingAlgorithms\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\SortingAlgorithms && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms -BC:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\SortingAlgorithms && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms -BC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build SortingAlgorithms\rebuild_cache: phony SortingAlgorithms\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build SortingAlgorithms\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build SortingAlgorithms\CMakeFiles\install.util: CUSTOM_COMMAND SortingAlgorithms\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\SortingAlgorithms && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build SortingAlgorithms\install: phony SortingAlgorithms\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build SortingAlgorithms\CMakeFiles\install\local.util: CUSTOM_COMMAND SortingAlgorithms\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\SortingAlgorithms && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build SortingAlgorithms\install\local: phony SortingAlgorithms\CMakeFiles\install\local.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SortingAlgorithmsTest1
+
+
+#############################################
+# Order-only phony target for SortingAlgorithmsTest1
+
+build cmake_object_order_depends_target_SortingAlgorithmsTest1: phony || cmake_object_order_depends_target_SortingAlgorithmsLib cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+
+build tests\CMakeFiles\SortingAlgorithmsTest1.dir\SortingAlgorithmsTest1.cpp.obj: CXX_COMPILER__SortingAlgorithmsTest1_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\tests\SortingAlgorithmsTest1.cpp || cmake_object_order_depends_target_SortingAlgorithmsTest1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms -external:IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\include -external:IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest -external:W0
+  OBJECT_DIR = tests\CMakeFiles\SortingAlgorithmsTest1.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\SortingAlgorithmsTest1.dir
+  TARGET_COMPILE_PDB = tests\CMakeFiles\SortingAlgorithmsTest1.dir\
+  TARGET_PDB = tests\SortingAlgorithmsTest1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SortingAlgorithmsTest1
+
+
+#############################################
+# Link the executable tests\SortingAlgorithmsTest1.exe
+
+build tests\SortingAlgorithmsTest1.exe: CXX_EXECUTABLE_LINKER__SortingAlgorithmsTest1_Release tests\CMakeFiles\SortingAlgorithmsTest1.dir\SortingAlgorithmsTest1.cpp.obj | SortingAlgorithms\SortingAlgorithmsLib.lib lib\gtest.lib lib\gtest_main.lib lib\gtest.lib || SortingAlgorithms\SortingAlgorithmsLib.lib lib\gtest.lib lib\gtest_main.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
+  LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /subsystem:console
+  LINK_LIBRARIES = SortingAlgorithms\SortingAlgorithmsLib.lib  lib\gtest.lib  lib\gtest_main.lib  lib\gtest.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = tests\CMakeFiles\SortingAlgorithmsTest1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = tests\CMakeFiles\SortingAlgorithmsTest1.dir\
+  TARGET_FILE = tests\SortingAlgorithmsTest1.exe
+  TARGET_IMPLIB = tests\SortingAlgorithmsTest1.lib
+  TARGET_PDB = tests\SortingAlgorithmsTest1.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build tests\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\tests && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build tests\edit_cache: phony tests\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build tests\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\tests && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms -BC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build tests\rebuild_cache: phony tests\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build tests\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build tests\CMakeFiles\install.util: CUSTOM_COMMAND tests\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\tests && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build tests\install: phony tests\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build tests\CMakeFiles\install\local.util: CUSTOM_COMMAND tests\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\tests && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build tests\install\local: phony tests\CMakeFiles\install\local.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/tests/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps\googletest-build\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps\googletest-build\edit_cache: phony _deps\googletest-build\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps\googletest-build\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms -BC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\rebuild_cache: phony _deps\googletest-build\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps\googletest-build\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps\googletest-build\CMakeFiles\install.util: CUSTOM_COMMAND _deps\googletest-build\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\install: phony _deps\googletest-build\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps\googletest-build\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\googletest-build\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\install\local: phony _deps\googletest-build\CMakeFiles\install\local.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Order-only phony target for gmock
+
+build cmake_object_order_depends_target_gmock: phony || _deps\googletest-build\googlemock\CMakeFiles\gmock.dir
+
+build _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\__\googletest\src\gtest-all.cc.obj: CXX_COMPILER__gmock_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\src\gtest-all.cc || cmake_object_order_depends_target_gmock
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest
+  OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir
+  OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\__\googletest\src
+  TARGET_COMPILE_PDB = lib\gmock.pdb
+  TARGET_PDB = bin\gmock.pdb
+
+build _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock\src\gmock-all.cc || cmake_object_order_depends_target_gmock
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest
+  OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir
+  OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\src
+  TARGET_COMPILE_PDB = lib\gmock.pdb
+  TARGET_PDB = bin\gmock.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Link the static library lib\gmock.lib
+
+build lib\gmock.lib: CXX_STATIC_LIBRARY_LINKER__gmock_Release _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\__\googletest\src\gtest-all.cc.obj _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lib\gmock.pdb
+  TARGET_FILE = lib\gmock.lib
+  TARGET_PDB = bin\gmock.pdb
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Order-only phony target for gmock_main
+
+build cmake_object_order_depends_target_gmock_main: phony || _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir
+
+build _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.obj: CXX_COMPILER__gmock_main_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\src\gtest-all.cc || cmake_object_order_depends_target_gmock_main
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest
+  OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src
+  TARGET_COMPILE_PDB = lib\gmock_main.pdb
+  TARGET_PDB = bin\gmock_main.pdb
+
+build _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src\gmock-all.cc.obj: CXX_COMPILER__gmock_main_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock\src\gmock-all.cc || cmake_object_order_depends_target_gmock_main
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest
+  OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src
+  TARGET_COMPILE_PDB = lib\gmock_main.pdb
+  TARGET_PDB = bin\gmock_main.pdb
+
+build _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock\src\gmock_main.cc || cmake_object_order_depends_target_gmock_main
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googlemock -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest
+  OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src
+  TARGET_COMPILE_PDB = lib\gmock_main.pdb
+  TARGET_PDB = bin\gmock_main.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Link the static library lib\gmock_main.lib
+
+build lib\gmock_main.lib: CXX_STATIC_LIBRARY_LINKER__gmock_main_Release _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.obj _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src\gmock-all.cc.obj _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lib\gmock_main.pdb
+  TARGET_FILE = lib\gmock_main.lib
+  TARGET_PDB = bin\gmock_main.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps\googletest-build\googlemock\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build\googlemock && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps\googletest-build\googlemock\edit_cache: phony _deps\googletest-build\googlemock\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps\googletest-build\googlemock\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build\googlemock && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms -BC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\googlemock\rebuild_cache: phony _deps\googletest-build\googlemock\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps\googletest-build\googlemock\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps\googletest-build\googlemock\CMakeFiles\install.util: CUSTOM_COMMAND _deps\googletest-build\googlemock\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build\googlemock && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\googlemock\install: phony _deps\googletest-build\googlemock\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps\googletest-build\googlemock\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\googletest-build\googlemock\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build\googlemock && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\googlemock\install\local: phony _deps\googletest-build\googlemock\CMakeFiles\install\local.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-src/googlemock/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Order-only phony target for gtest
+
+build cmake_object_order_depends_target_gtest: phony || _deps\googletest-build\googletest\CMakeFiles\gtest.dir
+
+build _deps\googletest-build\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\src\gtest-all.cc || cmake_object_order_depends_target_gtest
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\include -IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest
+  OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest.dir
+  OBJECT_FILE_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest.dir\src
+  TARGET_COMPILE_PDB = lib\gtest.pdb
+  TARGET_PDB = bin\gtest.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Link the static library lib\gtest.lib
+
+build lib\gtest.lib: CXX_STATIC_LIBRARY_LINKER__gtest_Release _deps\googletest-build\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lib\gtest.pdb
+  TARGET_FILE = lib\gtest.lib
+  TARGET_PDB = bin\gtest.pdb
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Order-only phony target for gtest_main
+
+build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
+
+build _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Release C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\src\gtest_main.cc || cmake_object_order_depends_target_gtest_main
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -external:IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest\include -external:IC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-src\googletest -external:W0
+  OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir
+  OBJECT_FILE_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\src
+  TARGET_COMPILE_PDB = lib\gtest_main.pdb
+  TARGET_PDB = bin\gtest_main.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Link the static library lib\gtest_main.lib
+
+build lib\gtest_main.lib: CXX_STATIC_LIBRARY_LINKER__gtest_main_Release _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj || lib\gtest.lib
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MD /O2 /Ob2 /DNDEBUG
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lib\gtest_main.pdb
+  TARGET_FILE = lib\gtest_main.lib
+  TARGET_PDB = bin\gtest_main.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps\googletest-build\googletest\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build\googletest && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps\googletest-build\googletest\edit_cache: phony _deps\googletest-build\googletest\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps\googletest-build\googletest\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build\googletest && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms -BC:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\googletest\rebuild_cache: phony _deps\googletest-build\googletest\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps\googletest-build\googletest\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps\googletest-build\googletest\CMakeFiles\install.util: CUSTOM_COMMAND _deps\googletest-build\googletest\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build\googletest && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\googletest\install: phony _deps\googletest-build\googletest\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps\googletest-build\googletest\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\googletest-build\googletest\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\out\build\x64-release\_deps\googletest-build\googletest && F:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps\googletest-build\googletest\install\local: phony _deps\googletest-build\googletest\CMakeFiles\install\local.util
 
 # =============================================================================
 # Target aliases.
@@ -143,22 +671,74 @@ build SortingAlgorithms: phony SortingAlgorithms\SortingAlgorithms.exe
 
 build SortingAlgorithms.exe: phony SortingAlgorithms\SortingAlgorithms.exe
 
+build SortingAlgorithmsLib: phony SortingAlgorithms\SortingAlgorithmsLib.lib
+
+build SortingAlgorithmsLib.lib: phony SortingAlgorithms\SortingAlgorithmsLib.lib
+
+build SortingAlgorithmsTest1: phony tests\SortingAlgorithmsTest1.exe
+
+build SortingAlgorithmsTest1.exe: phony tests\SortingAlgorithmsTest1.exe
+
+build gmock: phony lib\gmock.lib
+
+build gmock.lib: phony lib\gmock.lib
+
+build gmock_main: phony lib\gmock_main.lib
+
+build gmock_main.lib: phony lib\gmock_main.lib
+
+build gtest: phony lib\gtest.lib
+
+build gtest.lib: phony lib\gtest.lib
+
+build gtest_main: phony lib\gtest_main.lib
+
+build gtest_main.lib: phony lib\gtest_main.lib
+
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/dbrac/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release
+# Folder: C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release
 
-build all: phony SortingAlgorithms\all
+build all: phony SortingAlgorithms\all tests\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/dbrac/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/SortingAlgorithms
+# Folder: C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/SortingAlgorithms
 
-build SortingAlgorithms\all: phony SortingAlgorithms\SortingAlgorithms.exe
+build SortingAlgorithms\all: phony SortingAlgorithms\SortingAlgorithms.exe SortingAlgorithms\SortingAlgorithmsLib.lib
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-build
+
+build _deps\googletest-build\all: phony _deps\googletest-build\googlemock\all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-build/googlemock
+
+build _deps\googletest-build\googlemock\all: phony lib\gmock.lib lib\gmock_main.lib _deps\googletest-build\googletest\all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-build/googletest
+
+build _deps\googletest-build\googletest\all: phony lib\gtest.lib lib\gtest_main.lib
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/tests
+
+build tests\all: phony tests\SortingAlgorithmsTest1.exe _deps\googletest-build\all
 
 # =============================================================================
 # Built-in targets
@@ -167,14 +747,14 @@ build SortingAlgorithms\all: phony SortingAlgorithms\SortingAlgorithms.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\CMakeLists.txt C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\CMakeLists.txt CMakeCache.txt CMakeFiles\3.28.0-msvc1\CMakeCCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\CMakeLists.txt C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\CMakeLists.txt C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\tests\CMakeLists.txt CMakeCache.txt CMakeFiles\3.28.0-msvc1\CMakeCCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeSystem.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPython.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPython\Support.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindThreads.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake _deps\googletest-src\CMakeLists.txt _deps\googletest-src\googlemock\CMakeLists.txt _deps\googletest-src\googlemock\cmake\gmock.pc.in _deps\googletest-src\googlemock\cmake\gmock_main.pc.in _deps\googletest-src\googletest\CMakeLists.txt _deps\googletest-src\googletest\cmake\Config.cmake.in _deps\googletest-src\googletest\cmake\gtest.pc.in _deps\googletest-src\googletest\cmake\gtest_main.pc.in _deps\googletest-src\googletest\cmake\internal_utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\CMakeLists.txt C$:\Users\dbrac\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\CMakeLists.txt CMakeCache.txt CMakeFiles\3.28.0-msvc1\CMakeCCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeSystem.cmake: phony
+build C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\CMakeLists.txt C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms\CMakeLists.txt C$:\Users\Dawid\Documents\GitHub\SortingAlgorithms\SortingAlgorithms\tests\CMakeLists.txt CMakeCache.txt CMakeFiles\3.28.0-msvc1\CMakeCCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.28.0-msvc1\CMakeSystem.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPython.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindPython\Support.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FindThreads.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake F$:\VisualStudio2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake _deps\googletest-src\CMakeLists.txt _deps\googletest-src\googlemock\CMakeLists.txt _deps\googletest-src\googlemock\cmake\gmock.pc.in _deps\googletest-src\googlemock\cmake\gmock_main.pc.in _deps\googletest-src\googletest\CMakeLists.txt _deps\googletest-src\googletest\cmake\Config.cmake.in _deps\googletest-src\googletest\cmake\gtest.pc.in _deps\googletest-src\googletest\cmake\gtest_main.pc.in _deps\googletest-src\googletest\cmake\internal_utils.cmake: phony
 
 
 #############################################

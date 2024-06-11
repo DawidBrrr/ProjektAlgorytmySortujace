@@ -1,4 +1,18 @@
 # ninja log v5
-12	755	7375092527809811	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/Algorithms.cpp.obj	cd671b246b55a4c0
-4	2937	7375092549623010	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj	67e4974196257eff
-2939	3170	7375092551773665	SortingAlgorithms/SortingAlgorithms.exe	c2606c7f6eecfe5a
+20	467	7397226244365540	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/Algorithms.cpp.obj	eb2bdc458953342c
+16	2887	7397254276271831	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj	f22c3107ef44dfd8
+2888	3009	7397254277412093	SortingAlgorithms/SortingAlgorithms.exe	ada94649555d8fb6
+11	556	7398250014159592	SortingAlgorithms/CMakeFiles/SortingAlgorithmsLib.dir/Algorithms.cpp.obj	9684c505cc51e637
+557	713	7398250015839971	SortingAlgorithms/SortingAlgorithmsLib.lib	6e0b0bbfd6d06c0c
+22	979	7398250018490562	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	5e673b2f8de6a58b
+16	1161	7398250020300970	tests/CMakeFiles/SortingAlgorithmsTest1.dir/SortingAlgorithmsTest1.cpp.obj	297d2b68fe80cfe9
+19	3816	7398250046777017	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	e401fb9a7526a4ae
+3816	3881	7398250047407167	lib/gtest.lib	bea52731b9e7e971
+3881	3925	7398250047958505	lib/gtest_main.lib	c63fea930c61af9d
+3925	4414	7398250052715617	tests/SortingAlgorithmsTest1.exe	e2822126174962ff
+17	2873	7398250257521953	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj	f22c3107ef44dfd8
+2874	3015	7398250258866860	SortingAlgorithms/SortingAlgorithms.exe	ada94649555d8fb6
+6	1106	7398252723589754	tests/CMakeFiles/SortingAlgorithmsTest1.dir/SortingAlgorithmsTest1.cpp.obj	297d2b68fe80cfe9
+1107	1298	7398252725398244	tests/SortingAlgorithmsTest1.exe	e2822126174962ff
+17	1254	7398255005634865	tests/CMakeFiles/SortingAlgorithmsTest1.dir/SortingAlgorithmsTest1.cpp.obj	297d2b68fe80cfe9
+1255	1398	7398255006949394	tests/SortingAlgorithmsTest1.exe	e2822126174962ff

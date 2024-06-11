@@ -1,0 +1,23 @@
+# ninja log v5
+2043	2094	7398226259554445	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	8ff91d0db2a80f80
+12	69	7398226239311135	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	6b60b674e7c2f89e
+1883	1936	7398226257974085	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	25baa68cc379d5da
+12	69	7398226239311135	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	6b60b674e7c2f89e
+70	1882	7398226257443971	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	c56ea2a472e3ad85
+70	1882	7398226257443971	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	c56ea2a472e3ad85
+70	1882	7398226257443971	googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	c56ea2a472e3ad85
+1883	1936	7398226257974085	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	25baa68cc379d5da
+70	1882	7398226257443971	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip	c56ea2a472e3ad85
+1936	1990	7398226258514209	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	bef87eef0cecb1a1
+1936	1990	7398226258514209	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	bef87eef0cecb1a1
+1990	2042	7398226259044327	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	da7f0e6d3bec89c4
+2197	2270	7398226261314845	CMakeFiles/googletest-populate-complete	5a6fbc1677d63c51
+1990	2042	7398226259044327	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	da7f0e6d3bec89c4
+2043	2094	7398226259554445	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	8ff91d0db2a80f80
+2094	2146	7398226260074558	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	98d99784f58b42a1
+2094	2146	7398226260074558	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	98d99784f58b42a1
+2146	2197	7398226260584678	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	f25ceeb8918ed5bd
+2146	2197	7398226260584678	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	f25ceeb8918ed5bd
+2197	2270	7398226261314845	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	5a6fbc1677d63c51
+2197	2270	7398226261314845	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	5a6fbc1677d63c51
+2197	2270	7398226261314845	C:/Users/Dawid/Documents/GitHub/SortingAlgorithms/SortingAlgorithms/out/build/x64-release/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	5a6fbc1677d63c51
