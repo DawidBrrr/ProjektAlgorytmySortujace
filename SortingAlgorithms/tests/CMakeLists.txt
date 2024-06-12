@@ -10,13 +10,14 @@ FetchContent_Declare(
   googletest
   URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
 )
-# Aby pobraæ i skonfigurowaæ Google Test
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+# Aby pobraÃ¦ i skonfigurowaÃ¦ Google Test
 FetchContent_MakeAvailable(googletest)
 
 # Dodaj plik testowy
 add_executable(SortingAlgorithmsTest1 SortingAlgorithmsTest1.cpp)
 
-# Linkuj testy z bibliotek¹ SortingAlgorithmsLib i Google Test
+# Linkuj testy z bibliotekÂ¹ SortingAlgorithmsLib i Google Test
 target_link_libraries(SortingAlgorithmsTest1 SortingAlgorithmsLib gtest gtest_main)
 
 
